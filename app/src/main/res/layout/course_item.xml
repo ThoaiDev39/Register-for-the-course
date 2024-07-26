@@ -1,0 +1,50 @@
+<!-- item_course.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvCourseCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Code"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCourseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Name" />
+
+    <TextView
+        android:id="@+id/tvCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số tín chỉ"/>
+
+    <TextView
+        android:id="@+id/tvClassDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Day" />
+
+    <TextView
+        android:id="@+id/tvClassPeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Period" />
+
+    <TextView
+        android:id="@+id/tvStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký" />
+</LinearLayout>
